@@ -1,3 +1,4 @@
+#MEETSAGE 
 AI Meeting Assistant 🎙️
 An AI-powered meeting and video intelligence application built with Python. It converts YouTube videos and local audio/video recordings into structured, searchable meeting insights.
 
