@@ -1,0 +1,29 @@
+# Core application and UI
+streamlit
+
+# Speech transcription
+openai-whisper
+sarvamai
+
+# LLM provider and orchestration
+mistralai
+langchain
+langchain-core
+langchain-mistralai
+
+# Embeddings and vector database
+sentence-transformers
+langchain-huggingface
+chromadb
+langchain-chroma
+
+# Audio / video downloading and processing
+yt-dlp
+pydub
+ffmpeg-python
+
+# Environment configuration
+python-dotenv
+
+# PDF report generation
+reportlab
