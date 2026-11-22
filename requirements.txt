@@ -6,10 +6,10 @@ openai-whisper
 sarvamai
 
 # LLM provider and orchestration
-mistralai
+
 langchain
 langchain-core
-langchain-mistralai
+langchain-groq
 
 # Embeddings and vector database
 sentence-transformers
@@ -38,7 +38,7 @@ sarvamai
 mistralai
 langchain
 langchain-core
-langchain-mistralai
+langchain-groq
 
 # Embeddings and vector database
 sentence-transformers
