@@ -45,6 +45,7 @@ sentence-transformers
 langchain-huggingface
 chromadb
 langchain-chroma
+langchain-text-splitters
 
 # Audio / video downloading and processing
 yt-dlp
