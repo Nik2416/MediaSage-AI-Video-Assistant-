@@ -18,7 +18,7 @@ chromadb
 langchain-chroma
 
 # Audio / video downloading and processing
-yt-dlp
+yt-dlp[default,deno]
 pydub
 ffmpeg-python
 

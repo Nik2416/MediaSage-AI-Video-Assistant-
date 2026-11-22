@@ -7,15 +7,19 @@ os.makedirs(DOWNLOAD_DIR,exist_ok=True)
 
 def download_youtube_audio(url):
   output_path=os.path.join(DOWNLOAD_DIR,'%(title)s.%(ext)s')
-  ydl_opts={
-    "format":"bestaudio/best",
-    "outtmpl":output_path,
-    "postprocessors":[
-      {
-      "key":"FFmpegExtractAudio",
-      "preferredcodec":"wav",
-      "preferredquality":"192",
-      }
+  ydl_opts = {
+    "format": "bestaudio/best",
+    "outtmpl": "downloads/%(id)s.%(ext)s",
+    "noplaylist": True,
+    "quiet": False,
+    "retries": 3,
+    "extractor_retries": 3,
+    "postprocessors": [
+        {
+            "key": "FFmpegExtractAudio",
+            "preferredcodec": "mp3",
+            "preferredquality": "192",
+        }
     ],
     "quiet":True,
     }
