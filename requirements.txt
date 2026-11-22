@@ -49,6 +49,7 @@ langchain-chroma
 # Audio / video downloading and processing
 yt-dlp
 pydub
+audioop-lts
 ffmpeg-python
 
 # Environment configuration
