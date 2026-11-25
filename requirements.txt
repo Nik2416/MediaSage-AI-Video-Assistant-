@@ -18,7 +18,7 @@ chromadb
 langchain-chroma
 
 # Audio / video downloading and processing
-yt-dlp[default,deno]
+yt-dlp[default,deno]==2026.11.23
 pydub
 ffmpeg-python
 
@@ -48,7 +48,7 @@ langchain-chroma
 langchain-text-splitters
 
 # Audio / video downloading and processing
-yt-dlp
+
 pydub
 audioop-lts
 ffmpeg-python
