@@ -35,7 +35,6 @@ openai-whisper
 sarvamai
 
 # LLM provider and orchestration
-mistralai
 langchain
 langchain-core
 langchain-groq
